@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+body, html{
+    margin: 0;
+}
+.imagem{
+    background-image: url("milkshake.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+h1{
+    display: block;
+    background-color: #ffbcb8c5;
+    width: 400px;
+    height: 40px;
+    padding: 20px 5px;
+    margin: 10px auto;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 30px;
+}
+main{
+    display: block;
+    background-color: #ffbcb8c5;
+}

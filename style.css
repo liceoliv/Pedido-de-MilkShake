@@ -1,7 +1,13 @@
 @charset "UTF-8";
 
 body, html{
+    @font-face {
+        font-family: 'Pacifico';
+        src: url('Pacifico-Regular.ttf')
+        format('truetype');
+    }   
     margin: 0;
+
 }
 .imagem{
     background-image: url("milkshake.jpg");
@@ -19,9 +25,15 @@ h1{
     margin: 10px auto;
     border-radius: 7px;
     text-align: center;
-    font-size: 40px;
-
+    font-family: 'Pacifico';
+    font-size: 30px;
 }
+h2{
+  font-family: 'Pacifico';
+  font-size: 19px;
+  padding: 1px;
+  margin: 22px 15px 5px 15px;
+ }
 main{
     display: block;
     background-color: #ffbcb8c5;
@@ -29,9 +41,18 @@ main{
     padding: 1px 10px;
     margin: auto;
     border-radius: 7px;
-    font-size: 16px;
+    font-family: 'Pacifico';
+    font-size: 13px;
 }
 .nome, .comentario, button{
     background-color: #7f4441a6;
-    margin-top: 5px;
+    margin-left: 12px;
+    font-family: 'Pacifico';
+    font-size: 14px;
+}
+.rosa{
+    display: inline-block;
+    background-color: #FF8882;
+    color: #FF8882;
+    cursor: pointer;
 }
